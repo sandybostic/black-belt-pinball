@@ -1,0 +1,49 @@
+2025-07-30 22:12:14,542 : INFO : root : Loading config.
+2025-07-30 22:12:14,544 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-07-30 22:12:14,544 : INFO : ConfigProcessor : Loading config from cache: /var/folders/gg/srccb6s145n1kb3kmbrvj5l40000gq/T/8de3182f846dd0919dd030999176ac09.mpf_cache
+2025-07-30 22:12:14,584 : INFO : ConfigProcessor : Loading config from cache: /var/folders/gg/srccb6s145n1kb3kmbrvj5l40000gq/T/5c5d28699ea9a91c3a1f5a5fdf3094e5.mpf_cache
+2025-07-30 22:12:14,584 : INFO : ConfigProcessor : Loading config from cache: /var/folders/gg/srccb6s145n1kb3kmbrvj5l40000gq/T/c1f0c602674a4fb9ccce10eba005ddd0.mpf_cache
+2025-07-30 22:12:14,584 : INFO : ConfigProcessor : Loading config from cache: /var/folders/gg/srccb6s145n1kb3kmbrvj5l40000gq/T/5c5d28699ea9a91c3a1f5a5fdf3094e5.mpf_cache
+2025-07-30 22:12:14,585 : INFO : ConfigProcessor : Loading config from cache: /var/folders/gg/srccb6s145n1kb3kmbrvj5l40000gq/T/ae64b8244a0705a7690d692212b5378d.mpf_cache
+2025-07-30 22:12:14,585 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev9
+2025-07-30 22:12:14,585 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-07-30-22-12-14-mpf-macbookpro.lan.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/sbostic/DevSandy/black-belt-pinball/logs/2025-07-30-22-12-14-mpf-macbookpro.lan.log'}
+2025-07-30 22:12:14,585 : INFO : Machine : MPF path: /Users/sbostic/DevSandy/mpf/mpf
+2025-07-30 22:12:14,585 : INFO : Machine : Machine path: /Users/sbostic/DevSandy/black-belt-pinball
+2025-07-30 22:12:14,585 : INFO : Machine : Platform: darwin
+2025-07-30 22:12:14,585 : INFO : Machine : Python executable location: /Users/sbostic/Documents/MakingPinball/MPF/mpfenv/bin/python
+2025-07-30 22:12:14,585 : INFO : Machine : Python version: 3.11.8 (64-bit)
+2025-07-30 22:12:14,585 : INFO : Machine : Initializing MPF...
+2025-07-30 22:12:14,641 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,647 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,647 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev9', 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,647 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev9, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,647 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.8', 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,667 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-15.5-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,667 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,667 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '24.5.0', 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,667 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:49 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6000', 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,667 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,667 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/sbostic/DevSandy/black-belt-pinball/logs/2025-07-30-22-12-14-mpf-macbookpro.lan.log', 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,667 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-07-30 22:12:14,672 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-07-30 22:12:14,675 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-07-30 22:12:14,676 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-07-30 22:12:14,676 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,676 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,676 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-07-30 22:12:14,677 : INFO : Mode.attract : Started. Priority: 10
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-07-30 22:12:14,677 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-07-30 22:12:14,678 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-07-30 22:12:20,473 : INFO : Machine : Shutting down...
+2025-07-30 22:12:20,474 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-07-30 22:12:20,475 : INFO : root : MPF run loop ended.
