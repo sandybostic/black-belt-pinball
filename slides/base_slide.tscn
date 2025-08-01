@@ -1,0 +1,77 @@
+[gd_scene load_steps=3 format=3 uid="uid://bre2vsg6j7rn"]
+
+[ext_resource type="Script" uid="uid://she7uiatqo6u" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_a4vdr"]
+[ext_resource type="Script" uid="uid://d068mmmwnsuub" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="2_2jp88"]
+
+[node name="BaseSlide" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+script = ExtResource("1_a4vdr")
+metadata/_custom_type_script = "uid://she7uiatqo6u"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 0.411765, 0.117647, 1)
+
+[node name="player_score" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -11.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_constants/shadow_outline_size = 20
+theme_override_font_sizes/font_size = 150
+text = "1,234,567"
+horizontal_alignment = 1
+script = ExtResource("2_2jp88")
+variable_name = "score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://d068mmmwnsuub"
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 224.0
+grow_horizontal = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+
+[node name="HFlowContainer" type="HFlowContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 70
+
+[node name="player_number" type="Label" parent="MarginContainer/HFlowContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.203922, 0.184314, 0.929412, 1)
+theme_override_font_sizes/font_size = 80
+text = "Player 1"
+script = ExtResource("2_2jp88")
+variable_name = "number"
+template_string = "Player %s"
+min_players = 2
+metadata/_custom_type_script = "uid://d068mmmwnsuub"
+
+[node name="player_ball" type="Label" parent="MarginContainer/HFlowContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.203922, 0.184314, 0.929412, 1)
+theme_override_font_sizes/font_size = 80
+text = "Ball 1"
+script = ExtResource("2_2jp88")
+variable_name = "ball"
+template_string = "Ball %s"
+metadata/_custom_type_script = "uid://d068mmmwnsuub"

@@ -7,6 +7,23 @@
 # include everything here, or create sub-config files to be
 # imported and merged with this one.
 
+config:
+  - config_ball_devices.yaml
+  - config_coils.yaml
+  - config_switches.yaml
+
 modes:
   - attract
   - base
+  - bumpers
+  - hurryup
+
+playfields:
+  playfield:
+    default_source_device: bd_trough
+    tags: default
+
+virtual_platform_start_active_switches:
+  - s_trough_1
+  - s_trough_2
+  - s_trough_3
